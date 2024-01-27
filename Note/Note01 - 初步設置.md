@@ -1,6 +1,6 @@
 # Step01 註冊Line Developers帳號
 1. create a new channel > Messaging API
-![[S07-N01-01.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N01-01.png)
 # Step02 建立API專案
 # Step03 建立Model類別
 - 取得Line Messaging API JSON格式

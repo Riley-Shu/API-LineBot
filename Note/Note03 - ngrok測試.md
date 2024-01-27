@@ -7,7 +7,7 @@
 
 # Step02 建立token
 - 取得Command Line
-![[S07-N03-01.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-01.png)
 - 開啟ngrok.exe
 - cmd: 建立token
 ```
@@ -17,7 +17,8 @@ ngrok config add-authtoken (My Authtoken)
 ```
 ngrok http https://localhost:7108
 ```
-![[S07-N03-02.png]]注意: 
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-02.png)
+注意: 
 - 此頁面需正確離開 (ctrl+c)
 - 一旦離開要重新建立token
 - - 若需要重啟服務，可直接重啟
@@ -71,14 +72,14 @@ ngrok http https://localhost:7108
   ]
 }
 ```
-![[S07-N03-03.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-03.png)
 
 # Step04 - 加入Line webhook URL
 - 將ngrok路徑加入Line webhook URL
-![[S07-N03-04.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-04.png)
 - 取消自動回應
-![[S07-N03-05.png]]
-![[S07-N03-06.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-05.png)
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-06.png)
 
-![[S07-N03-07.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N03-07.png)
 

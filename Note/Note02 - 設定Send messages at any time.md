@@ -81,7 +81,8 @@ namespace Sample07_Service.Controllers
 
 # Step03  配置send push Message API
 - 安裝套件: Newtonsoft.json
-![[S07-N02-01.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N02-01.png)
+
 ## SendPushData.cs
 - 建立類別
 ```cs
@@ -102,7 +103,10 @@ namespace Sample07_Service.Models
 }
 ```
 ## LinebotController.cs
-- channel access token:   ![[S07-N02-02.png]]
+- channel access token:
+
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N02-02.png)
+
 ```cs
  //Part: 配置send push Message API
  HttpClient httpClient = _httpClientFactory.CreateClient();

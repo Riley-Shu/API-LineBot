@@ -128,7 +128,7 @@ namespace Sample07_Service.Models
 }
 ```
 - 注意: 若貼上失敗，要拿掉JSON原始格式的註解
-![[S07-N01-02.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N01-02.png)
 
 # Step04 建立API控制器
 - 建立API控制器
@@ -156,7 +156,7 @@ namespace Sample07_Service.Controllers
     }
 }
 ```
-![[S07-N01-03.png]]
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N01-03.png)
 
 # Step05 編輯API控制器return內容
 - 調整API控制器 return 內容為文字
@@ -272,4 +272,5 @@ namespace Sample07_Service.Controllers
   ]
 }
 ```
-![[S07-N01-04.png]]
+
+![image](https://github.com/Riley-Shu/API-LineBot/blob/master/Note/image/S07-N01-04.png)

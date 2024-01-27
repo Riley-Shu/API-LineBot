@@ -7,7 +7,6 @@
 > - [Messaging API reference | LINE Developers](https://developers.line.biz/en/reference/messaging-api/#wh-text)
 > - 路徑: Line developers > Documentation > Messaging API > Messaging API reference > Webhook Event Objects > Message event > Text
 ```json
-// When a user sends a text message containing mention and an emoji in a group chat
 {
   "destination": "xxxxxxxxxx",
   "events": [
@@ -226,6 +225,7 @@ namespace Sample07_Service.Controllers
 - 注意: 相關的項目body要填進去
 - user Id: 
 	MyRobot > Basic settings > Your user ID
+
 ```json
 {
   "destination": "string",
